@@ -1,26 +1,26 @@
-›Ý’èƒtƒ@ƒCƒ‹‚Ì‘‚«Š·‚¦
-	C:\PostgreSQL\10\data\postgresql.comf
+â—‹è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®æ›¸ãæ›ãˆ
+	C:\PostgreSQL\10\data\postgresql.conf
 	listen_address = 'localhost'
 	#listen_address = '*'
 
-	PostgreSQL‚ðÄ‹N“®‚·‚é‚½‚ß‚ÉA
-	ƒRƒ“ƒgƒ[ƒ‹ƒpƒlƒ‹‚ÌuŠÇ—ƒc[ƒ‹v‚É‚ ‚éuƒT[ƒrƒXv‚ðƒNƒŠƒbƒNB
-	•\Ž¦‚³‚ê‚éƒEƒBƒ“ƒhƒE‚©‚çupostgresql-x64-10v‚ð‰EƒNƒŠƒbƒN‚µAƒƒjƒ…[‚©‚çÄ‹N“®‚·‚éB
+	PostgreSQLã‚’å†èµ·å‹•ã™ã‚‹ãŸã‚ã«ã€
+	ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãƒ‘ãƒãƒ«ã®ã€Œç®¡ç†ãƒ„ãƒ¼ãƒ«ã€ã«ã‚ã‚‹ã€Œã‚µãƒ¼ãƒ“ã‚¹ã€ã‚’ã‚¯ãƒªãƒƒã‚¯ã€‚
+	è¡¨ç¤ºã•ã‚Œã‚‹ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‹ã‚‰ã€Œpostgresql-x64-10ã€ã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã€ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰å†èµ·å‹•ã™ã‚‹ã€‚
 
-›psql‹N“®
+â—‹psqlèµ·å‹•
 	C:\PostgreSQL\10\bin\psql.exe -U postgres
 
-›ƒf[ƒ^ƒx[ƒXˆê——Žæ“¾
+â—‹ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ä¸€è¦§å–å¾—
 	\l;
 	
-›ƒf[ƒ^ƒx[ƒX‘I‘ð
-	\c ƒf[ƒ^ƒx[ƒX–¼;
+â—‹ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹é¸æŠž
+	\c ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å;
 	
-›ƒe[ƒuƒ‹ˆê——Žæ“¾
+â—‹ãƒ†ãƒ¼ãƒ–ãƒ«ä¸€è¦§å–å¾—
 	\dt;
 	
-›ƒe[ƒuƒ‹\‘¢•\Ž¦
-	\d ƒe[ƒuƒ‹–¼;
+â—‹ãƒ†ãƒ¼ãƒ–ãƒ«æ§‹é€ è¡¨ç¤º
+	\d ãƒ†ãƒ¼ãƒ–ãƒ«å;
 	
-›ŠO•”ƒtƒ@ƒCƒ‹(SQL)ŽÀs
-	\i ƒtƒ@ƒCƒ‹–¼
+â—‹å¤–éƒ¨ãƒ•ã‚¡ã‚¤ãƒ«(SQL)å®Ÿè¡Œ
+	\i ãƒ•ã‚¡ã‚¤ãƒ«å
