@@ -1,0 +1,26 @@
+○設定ファイルの書き換え
+	C:\PostgreSQL\10\data\postgresql.comf
+	listen_address = 'localhost'
+	#listen_address = '*'
+
+	PostgreSQLを再起動するために、
+	コントロールパネルの「管理ツール」にある「サービス」をクリック。
+	表示されるウィンドウから「postgresql-x64-10」を右クリックし、メニューから再起動する。
+
+○psql起動
+	C:\PostgreSQL\10\bin\psql.exe -U postgres
+
+○データベース一覧取得
+	\l;
+	
+○データベース選択
+	\c データベース名;
+	
+○テーブル一覧取得
+	\dt;
+	
+○テーブル構造表示
+	\d テーブル名;
+	
+○外部ファイル(SQL)実行
+	\i ファイル名
